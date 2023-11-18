@@ -3,7 +3,6 @@ require "graphql"
 require "graphql/client/schema"
 require "minitest/autorun"
 require "time"
-require 'debug'
 
 class TestSchemaType < Minitest::Test
   class DateTime < GraphQL::Schema::Scalar
